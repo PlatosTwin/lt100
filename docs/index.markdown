@@ -22,7 +22,8 @@ layout: page
     * [Splits](#data-splits)
     <!-- * [Split prediction](#data-split-prediction) -->
 3. [Data sourcing and processing](#sources-processing)
-4. [Footnotes](#footnotes)
+4. [Other LT100 data projects](#other-projects)
+5. [Footnotes](#footnotes)
 
 <h3 id="preamble" class="header-seps">Preamble</h3>
 I spent the summer of 2016—and 2017, 2018, and 2019—in Leadville, CO, working as an instructor at the Colorado Outward Bound School. It was then that I first learned of the Leadville Trail 100. By the time I started at COBS, the organization had been running the Outward Bound aid station at the LT100 for a number of years and drew heavily from its ranks to staff the aid station and stock a pool of volunteer pacers. Having spent all summer working in the mountains, I figured I was up to the challenge of pacing; that first year I accompanied a runner from Outward Bound to Mayqueen. The experience was incredible, and in 2017 I was lucky enough to pace a runner from Outward Bound all the way to the finish. 
@@ -108,6 +109,14 @@ All data is derived from [Athlinks](https://www.athlinks.com/event/33913). Surpr
 Additionally, DNF'd runners who finish after the cut-off time do not appear in the data at all. This is annoying and unfortunate, but the effect on the data in most if not all of the charts above is likely negligible.
 
 A more comprehensive approach would combine the data on Athlinks (2017-2024; 1999-2001) with data from the Leadville Race Series website (1983-1986; 2002-2011), ultrarunning.com (1987-1998), raceresult.com (2012-2013), and chronotrack.com (2014-2016). While creating a centralized and standardized repository of this sort is a worthy goal, doing so requires more time than I have. Given the scale of the Leadville Race Series, however, I am a little surprised at just how disorganized data from the event is.
+
+<h3 id="other-projects" class="header-with-top">Other LT100 data projects
+<a href="#top" class="go-to-top">Go to top</a>
+</h3>
+
+A quick Google search shows a few similar projects, linked below. If you know of any others, feel free to reach out. My contact information is in the footer.
+* [https://lt100analysis.com/](https://lt100analysis.com/)
+* [https://www.mitchleblanc.com/2012/09/leadville-100-2012-race-report-part-3-data-analysis/](https://www.mitchleblanc.com/2012/09/leadville-100-2012-race-report-part-3-data-analysis/)
 
 <h3 id="footnotes" class="header-with-top">Footnotes
 <a href="#top" class="go-to-top">Go to top</a>
