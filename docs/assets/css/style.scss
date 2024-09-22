@@ -1,0 +1,91 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.site-footer {
+    text-align: center;
+    font-size: 9px; 
+    color: gray; 
+    padding: 8px 0;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: black !important;
+    text-decoration: none;
+    // pointer-events: none;
+  }
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.header-with-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items in the middle */
+}
+
+.header-with-top a.go-to-top {
+    color: lightgray;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.header-with-top a.go-to-top:hover {
+    text-decoration: underline;
+    color: darkgray;
+}
+
+/* Adjust the line-height to align the large header text vertically */
+.header-with-top {
+    line-height: 1.5;
+    border-top: 1px solid gray;
+}
+
+.custom-figure {
+    margin: 0 auto; /* Center the figure on the page */
+    padding-bottom: 20px; /* Padding between the figure and the next element */
+}
+
+.custom-figure img {
+    display: block;
+    margin: 0 auto;
+}
+
+.custom-caption {
+    font-size: 0.9em; /* Make the caption slightly smaller */
+    color: darkgray;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px; /* Padding between the image and caption */
+    padding-bottom: 10px; /* Padding between the caption and the next item */
+}
+
+.chart-scroll-container {
+    width: 100%; /* Full width of the page */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center the container */
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.chart-container {
+    width: 100%; /* Width of the chart */
+    // min-width: 600px; /* Minimum width to prevent too much shrinking */
+}
+
+.child {
+    width: 75vw;
+    position: relative;
+    left: 25%;
+    right: 25%;
+    margin-left: -25vw;
+    margin-right: -25vw;
+    overflow-x: auto; 
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+.header-seps {
+    border-top: 1px solid gray;
+}
