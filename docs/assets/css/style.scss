@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+body{ 
+    background-color: #fdfffc;
+}
+
 .site-footer {
     text-align: center;
     font-size: 9px; 
@@ -41,6 +45,8 @@ html {
 .header-with-top {
     line-height: 1.5;
     border-top: 1px solid gray;
+    margin-top: 40px;
+    padding-top: 10px;
 }
 
 .custom-figure {
@@ -88,4 +94,6 @@ html {
 
 .header-seps {
     border-top: 1px solid gray;
+    margin-top: 40px;
+    padding-top: 10px;
 }
