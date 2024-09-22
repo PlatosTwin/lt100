@@ -8,7 +8,7 @@ layout: page
 
 <span style="color: dark-gray; font-size: 14px">**Nikita Bogdanov**</span>
 
-<span style="color: gray; font-size: 12px">_First published: 9/21/24_ &nbsp; &#124; &nbsp; _Last updated: 9/21/24_</span>
+<span style="color: gray; font-size: 12px">_First published: 9/21/24_ &nbsp; &#124; &nbsp; _Last updated: 9/22/24_</span>
 
 </div>
 
@@ -114,9 +114,9 @@ A more comprehensive approach would combine the data on Athlinks (2017-2024; 199
 <a href="#top" class="go-to-top">Go to top</a>
 </h3>
 
-A quick Google search shows a few similar projects, linked below. If you know of any others, feel free to reach out. My contact information is in the footer.
-* [https://lt100analysis.com/](https://lt100analysis.com/)
-* [https://www.mitchleblanc.com/2012/09/leadville-100-2012-race-report-part-3-data-analysis/](https://www.mitchleblanc.com/2012/09/leadville-100-2012-race-report-part-3-data-analysis/)
+A quick Google search shows a few similar projects, linked below. If you know of any others, feel free to reach out; my contact information is in the footer.
+* <a href="https://lt100analysis.com/" target="_blank">https://lt100analysis.com/</a>
+* <a href="https://www.mitchleblanc.com/2012/09/leadville-100-2012-race-report-part-3-data-analysis/" target="_blank">https://www.mitchleblanc.com/</a>
 
 <h3 id="footnotes" class="header-with-top">Footnotes
 <a href="#top" class="go-to-top">Go to top</a>
