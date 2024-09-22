@@ -2,7 +2,17 @@
 layout: page
 ---
 
-## Some Data from the LT100
+<h2 style="text-align: center;">Some Data from the LT100</h2>
+
+<div style="text-align: center;">
+
+<span style="color: dark-gray; font-size: 14px">**Nikita Bogdanov**</span>
+
+<span style="color: gray; font-size: 12px">_First published: 9/21/24_ &nbsp; &#124; &nbsp; _Last updated: 9/21/24_</span>
+
+</div>
+
+<hr style="margin-bottom: 5px; border: 0.5px solid gainsboro;">
 
 1. [Preamble](#preamble)
 2. [Data](#data)
@@ -21,7 +31,7 @@ I spent the summer of 2016—and 2017, 2018, and 2019—in Leadville, CO, workin
 
 While my course schedule didn't align with the race in 2018 and 2019, somewhere along the way I decided that I would one day run the LT100 myself. Until recently, this was a goal without much conviction behind it: in 2018 we moved from Colorado to New York City, and with the change of scenery it was challenging to hold on to the self I had grown into while living and working in the mountains.
 
-...until David Roche set the course record at this year's LT100. I'm still many years away from running in the LT100 myself, but with David's record-setting debut—and a commitment to moving back to the Mountain West in the not-too-distant future—I wanted to reconnect with my own experiences with the race and to start taking seriously that one day it'll be running into the Outward Bound aid station. And so I did what I'm reasonably good at doing: I pulled some historical and played around with making some graphs.
+...until David Roche [set the course record at this year's LT100](https://stories.strava.com/articles/david-roche-the-journey-to-the-leadville-100-course-record). I'm still many years away from running in the LT100 myself, but with David's record-setting debut—and a commitment to moving back to the Mountain West in the not-too-distant future—I wanted to reconnect with my own experiences with the race and to start taking seriously that one day it'll be running into the Outward Bound aid station. And so I did what I'm reasonably good at doing: I pulled some historical and played around with making some graphs.
 
 To be clear, this data falls pretty solidly into the category that I call "data porn"—data that's interesting to look at but ultimately of little or no practical utility. Indeed, there are plenty of websites, blogs, and Reddit threads devoted to the topic of strategizing for ultras generally and the LT100 specifically, and those looking for practical advice should most certainly turn to sources such as those. The purely curious, however, can scratch their data itch here.
 
