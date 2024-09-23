@@ -44,7 +44,7 @@ To be clear, this data falls pretty solidly into the category that I call "data 
 <a href="#top" class="go-to-top">Go to top</a>
 </h3>
 
-For those interested, this profile is based on the course waypoints in the above-linked CalTopo map, which in turn is, I believe, from the Leadville Race Series website.
+For those interested, this profile is derived from the course in the above-linked CalTopo map, which in turn is from the Leadville Race Series website (I believe).
 
 ![Course profile, with aid stations.]({{"images/course_profile.png" | relative_url }})
 
