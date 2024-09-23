@@ -15,15 +15,19 @@ layout: page
 <hr style="margin-bottom: 15px; border: 0.5px solid gainsboro;">
 
 1. [Preamble](#preamble)
-2. [Data](#data)
+2. [Course profile](#course)
+3. [Data](#data)
     * [The basics](#data-basics)
     * [Cumulative percentages](#data-cumulative-percentages)
     * [Age, gender, time](#data-age-gender-time)
-    * [Splits](#data-splits)
+    * [Splits and pace](#data-splits)
     <!-- * [Split prediction](#data-split-prediction) -->
-3. [Data sourcing and processing](#sources-processing)
-4. [Other LT100 data projects](#other-projects)
-5. [Footnotes](#footnotes)
+4. [Data sourcing and processing](#sources-processing)
+5. [Other LT100 data projects](#other-projects)
+6. [Footnotes](#footnotes)
+
+<em>Note: If you'd like to reference the course as you read along, you can find an <a href="https://caltopo.com/m/DJ1HV" target="_blank">interactive version</a> on CalTopo, or a basic course profile [down below](#course).</em>
+
 
 <h3 id="preamble" class="header-seps">Preamble</h3>
 I spent the summer of 2016—and 2017, 2018, and 2019—in Leadville, CO, working as an instructor at the Colorado Outward Bound School. It was then that I first learned of the Leadville Trail 100. By the time I started at COBS, the organization had been running the Outward Bound aid station at the LT100 for a number of years and drew heavily from its ranks to staff the aid station and stock a pool of volunteer pacers. Having spent all summer working in the mountains, I figured I was up to the challenge of pacing; that first year I accompanied a runner from Outward Bound to Mayqueen. The experience was incredible, and in 2017 I was lucky enough to pace a runner from Outward Bound all the way to the finish. 
@@ -35,6 +39,14 @@ While my course schedule didn't align with the race in 2018 and 2019, somewhere 
 ...until David Roche [set the course record at this year's LT100](https://stories.strava.com/articles/david-roche-the-journey-to-the-leadville-100-course-record). I'm still many years away from running in the LT100 myself, but with David's record-setting debut—and a family commitment to moving back to the Mountain West in the not-too-distant future—I wanted to reconnect with my own experiences with the race and to start taking seriously that one day it will hopefully be me coming through the Outward Bound aid station. And so I did what I'm reasonably good at doing: I pulled some historical data and played around with making some graphs.
 
 To be clear, this data falls pretty solidly into the category that I call "data porn"—data that's interesting to look at but that is ultimately of little or no practical utility and from which you can't draw (m)any statistically robust conclusions. Indeed, there are plenty of websites, blogs, and Reddit threads devoted to the topic of strategizing for ultras generally and the LT100 specifically, and those looking for practical advice should most certainly turn to sources such as those. The purely curious, however, can go some way toward scratching their data itch here.
+
+<h3 id="course" class="header-with-top">Course profile
+<a href="#top" class="go-to-top">Go to top</a>
+</h3>
+
+For those interested, this profile is based on the course waypoints in the above-linked CalTopo map, which in turn is, I believe, from the Leadville Race Series website.
+
+![Course profile, with aid stations.]({{"images/course_profile.png" | relative_url }})
 
 <h3 id="data" class="header-with-top">Data
 <a href="#top" class="go-to-top">Go to top</a>
@@ -76,14 +88,20 @@ Outside of the observation that older runners tend to be slower, there's not muc
 
 ![Finishing time by age, colored by gender, from 1983 through 2024.]({{"images/finishing_time_age_gender.png" | relative_url }})
 
-<h4 id="data-splits">Splits</h4>
+<h4 id="data-splits">Splits and pace</h4>
 For 2019 through 2024, we can also look at performance within splits—i.e., in between aid stations.[^2] Here, we're looking at [box and whisker plots](https://datavizcatalogue.com/methods/box_plot.html) of pace data by split.[^3] So, e.g., in 2019 the median pace of finishers on the start-to-12.6-mile split was 10:37.
 
 A few features stand out to me.
-* First, outside of 2024 having a large number of fast outliers, there's not much year-to-year variation in either the overall shape or the individual spreads.
-* Second, as the race progresses the bulk of the pack slows down markedly if not substantially more than do the fastest runners.[^4] Take 2019 as an example. The median pace at 12.6 miles was 10:37; by 87.8 miles, it had slowed down by 6:19 (59.5%) to 16:56. By contrast, the lower-fence pace at 12.6 miles was 7:39; by 87.8 miles, it had slowed down only 3:45 (49%), to 11:24.
+* First, there's not much year-to-year variation in either the overall shape or the spreads of individual splits.
+* Second, Hope Pass is brutal in both directions, but more so on the way out than on the way back. How so? Runners consistently move slowest on the portion of trail from mile 38 or so to mile 43.5, which corresponds to the outbound uphill portion of Hope Pass; the stretch from mile 50 to mile 56.6, where runners head up the backside of the pass, has the second-slowest pace.
+* Third, uphills bring out performance differences. The interquartile range (IQR) of the four splits leading up to Hope Pass hovers between 2 and 2:30. I've heard Leadville described as a road race for the first 40 miles, and this data goes some way towards supporting that characterization. Once runners begin to ascend, however, the IQR widens to nearly 5:00 and we see the spread increase as well between the Q3 and the upper fence and Q1 and the lower fence.
+* Fourth, we can see Hope Pass reflected in every split that follows. The IQR of the last four splits, which runners hit once they descend Hope Pass, hovers around 3:00, a 25% to 50% increase compared to the IQR of the first four splits.
 
 {% include graphs/split_paces_2019_2024.html %}
+
+The companion view to split paces is a view of how the cumulative pace evolves over time. What's notable here is that as the race progresses the bulk of the pack slows down markedly if not substantially more than do the fastest runners.[^4] Take 2019 as an example. The median pace in the first 12.6 miles was 10:37; across 87.8 miles, it had slowed down by 6:19 (59.5%) to 16:56. By contrast, the lower-fence pace in the first 12.6 miles was 7:39; across 87.8 miles, it had slowed down only 3:45 (49%), to 11:24.
+
+{% include graphs/cumulating_paces_2019_2024.html %}
 
 We can also look at splits from the angle of DNFs. Below, we chart out the overall DNF rate (top subplot) and the split-to-split DNF rate (bottom subplot) as a function of aid station. The observant reader will notice that the DNF rate does not [decrease monotonically](https://mathworld.wolfram.com/MonotoneDecreasing.html), which is a result of dirty data, discussed in the next section.
 
