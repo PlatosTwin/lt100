@@ -8,7 +8,7 @@ layout: page
 
 <span style="color: dark-gray; font-size: 14px">**Nikita Bogdanov**</span>
 
-<span style="color: gray; font-size: 12px">_First published: 9/21/24_ &nbsp; &#124; &nbsp; _Last updated: 9/22/24_</span>
+<span style="color: gray; font-size: 12px">_First published: 9/21/24_ &nbsp; &#124; &nbsp; _Last updated: 9/23/24_</span>
 
 </div>
 
@@ -56,7 +56,7 @@ Below, I've put together a collection of data cuts that I think are interesting 
 
 <h4 id="data-basics">The Basics</h4>
 
-The Leadville Trail 100 started in 1983 with 10 finishers; in 2024, it had just over 400.[^1] That's a 40x increase in finishers in roughly as many years—and assuming the DNF rate has remained approximately constant, which I think is likely, ditto for the number of entrants. But the race's growth trajectory has been far from steady, with just two periods of rapid growth: 1987 and 1988, which brought participation to levels that lasted through 2008; and 2009 and 2010, which brought participation to modern-day levels. What happened in 2009 and 2010? These years follow on the heels of the financial crisis, so it's possible that recently unemployed bankers took up ultra running; much more salient, however, is that on May 5th, 2009, Christopher McDougall published _Born to Run_.
+The Leadville Trail 100 started in 1983 with 10 finishers; in 2024, it had just over 400.[^1] That's a 40x increase in finishers in roughly as many years—and assuming the DNF rate has remained approximately constant, which I think is likely, ditto for the number of entrants. But the race's growth trajectory has been far from steady, with just two periods of rapid growth: 1) 1987 and 1988, which brought participation to levels that lasted through 2008; and 2) 2009 and 2010, which brought participation to modern-day levels. What happened in 2009 and 2010? These years follow on the heels of the financial crisis, so it's possible that recently unemployed bankers took up ultra running; much more salient, however, is that on May 5th, 2009, Christopher McDougall published _Born to Run_.
 
 ![Finishers by year, showing a 40x increase from 1983 to 2024.]({{"images/finishers_by_year.png" | relative_url }})
 
