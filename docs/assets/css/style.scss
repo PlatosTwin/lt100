@@ -59,41 +59,50 @@ html {
     margin: 0 auto;
 }
 
-.custom-caption {
-    font-size: 0.9em; /* Make the caption slightly smaller */
-    color: darkgray;
-    font-style: italic;
-    text-align: center;
-    padding-top: 10px; /* Padding between the image and caption */
-    padding-bottom: 10px; /* Padding between the caption and the next item */
-}
-
-.chart-scroll-container {
-    width: 100%; /* Full width of the page */
-    display: flex; /* Use flexbox for centering */
-    justify-content: center; /* Center the container */
-    overflow-x: auto; /* Enable horizontal scrolling */
-}
-
-.chart-container {
-    width: 100%; /* Width of the chart */
-    // min-width: 600px; /* Minimum width to prevent too much shrinking */
-}
-
-.child {
-    width: 75vw;
-    position: relative;
-    left: 25%;
-    right: 25%;
-    margin-left: -25vw;
-    margin-right: -25vw;
-    overflow-x: auto; 
-    text-align: center;
-    padding-bottom: 20px;
-  }
 
 .header-seps {
     border-top: 1px solid gray;
     margin-top: 40px;
     padding-top: 10px;
+}
+
+// .child {
+//     width: 75vw;
+//     position: relative;
+//     left: 25%;
+//     right: 25%;
+//     margin-left: -25vw;
+//     margin-right: -25vw;
+//     overflow-x: auto; 
+//     text-align: center;
+//     padding-bottom: 20px;
+//   }
+
+.child {
+    position: relative;
+    width: 100%;  /* Chart container takes the full width of its parent */
+    overflow-x: auto;  /* Enables horizontal scrolling if necessary */
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.child table {
+    width: calc(100vw - 40px);  /* Subtract a fixed amount to prevent horizontal scrollbar issues */
+    min-width: 1000px;  /* Set a minimum width to ensure it's larger than the container */
+    margin: 0 auto;  /* Center the table within the container */
+}
+
+@media (min-width: 1024px) {
+    .child {
+        width: 150%;  /* Allow the container to exceed the width of the text block */
+        margin-left: -25%;  /* Shift the container to the left */
+        margin-right: -25%;  /* Shift the container to the right */
+    }
+}
+
+@media (max-width: 1023px) {
+    .child table {
+        width: 100%;  /* On smaller screens, fit the table within the screen */
+        min-width: 600px;  /* Ensure it doesn’t shrink too much */
+    }
 }

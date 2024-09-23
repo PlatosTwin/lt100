@@ -109,7 +109,7 @@ The bottom subplot shows the number of runners who DNF'd between aid station A a
 
 {% include graphs/dnfs_finishers_drop_by_split.html %}
 
-Finally, we can take a closer look at what happens on the trail by examining how often runners change ranks, i.e., pass each other. The table below examines finisher-only split-to-split rank differences from 2019 through 2024. As column four indicates, north of 90% of runners are passing someone or being passed _each and every split_. In general, the movement isn't large, with runner ranks changing on average between 9 and 23 places. Perhaps somewhat surprisingly, there is substantial movement in ranks all the way up through the final split.[^5]
+Finally, we can take a closer look at what happens on the trail by examining how often runners change ranks, i.e., pass each other. The table below examines finisher-only split-to-split rank differences from 2019 through 2024. As column four indicates, north of 90% of runners are passing someone or being passed _each and every split_. In general, the movement isn't large, with runner ranks changing on average between 9 and 23 places. Perhaps somewhat surprisingly, there is substantial movement in ranks all the way up through the final split.[^5] (Note that on small screens the table scrolls.)
 
 {% include rank_table.html %}
 
