@@ -30,9 +30,9 @@ layout: page
 
 
 <h3 id="preamble" class="header-seps">Preamble</h3>
-I spent the summer of 2016—and 2017, 2018, and 2019—in Leadville, CO, working as an instructor at the Colorado Outward Bound School. It was then that I first learned of the Leadville Trail 100. By the time I started at COBS, the organization had been running the Outward Bound aid station at the LT100 for a number of years and drew heavily from its ranks to staff the aid station and stock a pool of volunteer pacers. Having spent all summer working in the mountains, I figured I was up to the challenge of pacing; that first year I accompanied a runner from Outward Bound to Mayqueen. The experience was incredible, and in 2017 I was lucky enough to pace a runner from Outward Bound all the way to the finish. 
+I spent the summer of 2016—and 2017, 2018, and 2019—in Leadville, CO, working as an instructor at the Colorado Outward Bound School. It was then that I first learned of the Leadville Trail 100. By the time I started at COBS, the organization had been running the Outward Bound aid station at the LT100 for a number of years and drew heavily from its ranks to staff the aid station and stock a pool of volunteer pacers. Having spent all summer working in the mountains, I figured I was up to the challenge of pacing; that first year I accompanied a runner from Outward Bound to the finish, which is where the photo below is from. The experience was incredible, and in 2017 I was lucky enough to pace the same runner for that same stretch.
 
-![Me, left, and the runner I paced, right, posing at the finish line.]({{"images/lt100_2017.jpg" | relative_url }})
+![Me, left, and the runner I paced, right, posing at the finish line.]({{"images/lt100_2016.jpg" | relative_url }})
 
 While my course schedule didn't align with the race in 2018 and 2019, somewhere along the way I decided that I would one day run the LT100 myself. Until recently, this was a goal without much conviction behind it: in 2018 we moved from Colorado to New York City, and with the change of scenery it was challenging to hold on to the self I had grown into while living and working in the mountains.
 
