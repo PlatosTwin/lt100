@@ -23,8 +23,9 @@ layout: page
     * [Splits and pace](#data-splits)
     <!-- * [Split prediction](#data-split-prediction) -->
 4. [Data sourcing and processing](#sources-processing)
-5. [Other LT100 data projects](#other-projects)
-6. [Footnotes](#footnotes)
+5. [Additional avenues](#future-work)
+6. [Other LT100 data projects](#other-projects)
+7. [Footnotes](#footnotes)
 
 <em>Note: If you'd like to reference the course as you read along, you can find an <a href="https://caltopo.com/m/DJ1HV" target="_blank">interactive version</a> on CalTopo, or a basic course profile [down below](#course).</em>
 
@@ -131,6 +132,16 @@ All data is derived from [Athlinks](https://www.athlinks.com/event/33913). Surpr
 Additionally, DNF'd runners who finish after the cut-off time do not appear in the data at all. This is annoying and unfortunate, but the effect on the data in most if not all of the charts above is likely negligible.
 
 A more comprehensive approach would combine the data on Athlinks (2017-2024; 1999-2001) with data from the Leadville Race Series website (1983-1986; 2002-2011), ultrarunning.com (1987-1998), raceresult.com (2012-2013), and chronotrack.com (2014-2016). While creating a centralized and standardized repository of this sort is a worthy goal, doing so requires more time than I have. Given the scale of the Leadville Race Series, however, I am a little surprised at just how disorganized data from the event is.
+
+<h3 id="future-work" class="header-with-top">Additional avenues
+<a href="#top" class="go-to-top">Go to top</a>
+</h3>
+
+If there were more hours in a day, I'd want to play around with:
+* Comparing DNF distributions to finisher distributions by age and gender. E.g., are older runners more likely to DNF?
+* Identifying runners across multiple races and tracking their performance across the years. One simple but error-prone way of doing this: match on name, home state, and (expected) age.
+* Pulling data publicly available on Strava to look at heart rates during the race. E.g., if your average HR exceeds 150 in the first 12.6 miles, are you almost guaranteed to DNF?
+* Again using Strava, looking for relationships between training volume, intensity, elevation, etc. and race-day performance.
 
 <h3 id="other-projects" class="header-with-top">Other LT100 data projects
 <a href="#top" class="go-to-top">Go to top</a>
