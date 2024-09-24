@@ -30,7 +30,7 @@ layout: page
 
 
 <h3 id="preamble" class="header-seps">Preamble</h3>
-I spent the summer of 2016—and 2017, 2018, and 2019—in Leadville, CO, working as an instructor at the Colorado Outward Bound School. It was then that I first learned of the Leadville Trail 100. By the time I started at COBS, the organization had been running the Outward Bound aid station at the LT100 for a number of years and drew heavily from its ranks to staff the aid station and stock a pool of volunteer pacers. Having spent all summer working in the mountains, I figured I was up to the challenge of pacing; that first year I accompanied a runner from Outward Bound to the finish, which is where the photo below is from. The experience was incredible, and in 2017 I was lucky enough to pace the same runner for that same stretch.
+I spent the summer of 2015—and 2016, 2017, 2018, and 2019—in Leadville, CO, working as an instructor at the Colorado Outward Bound School (COBS). It was then that I first learned of the Leadville Trail 100. By the time I started at COBS, the organization had been running the Outward Bound aid station for a number of years and drew heavily from its ranks to staff the aid station and stock a pool of volunteer pacers. Having spent all summer working in the mountains, I figured I was up to the challenge of pacing, and that first year I accompanied a runner from Outward Bound to Mayqueen. In both 2016 and 2017, I was lucky enough to pace from Outward Bound to the finish. (The photo below is from 2016.)
 
 ![Me, left, and the runner I paced, right, posing at the finish line.]({{"images/lt100_2016.jpg" | relative_url }})
 
@@ -56,7 +56,7 @@ Below, I've put together a collection of data cuts that I think are interesting 
 
 <h4 id="data-basics">The Basics</h4>
 
-The Leadville Trail 100 started in 1983 with 10 finishers; in 2024, it had just over 400.[^1] That's a 40x increase in finishers in roughly as many years—and assuming the DNF rate has remained approximately constant, which I think is likely, ditto for the number of entrants. But the race's growth trajectory has been far from steady, with just two periods of rapid growth: 1) 1987 and 1988, which brought participation to levels that lasted through 2008; and 2) 2009 and 2010, which brought participation to modern-day levels. What happened in 2009 and 2010? These years follow on the heels of the financial crisis, so it's possible that recently unemployed bankers took up ultra running; much more salient, however, is that on May 5th, 2009, Christopher McDougall published _Born to Run_.
+The Leadville Trail 100 started in 1983 with 10 finishers; in 2024, it had just over 400.[^1] That's a 40x increase in finishers in roughly as many years—and assuming the DNF rate has remained approximately constant, which I think is likely, ditto for the number of entrants. But the race's growth trajectory has been far from steady, with just two periods of rapid growth: 1) 1987-1988, which brought participation to levels that lasted through 2008; and 2) 2009-2010, which brought participation to modern-day levels. What happened in 2009 and 2010? These years follow on the heels of the financial crisis, so it's possible that recently unemployed bankers took up ultra running; much more salient, however, is that on May 5th, 2009, Christopher McDougall published _Born to Run_.
 
 ![Finishers by year, showing a 40x increase from 1983 to 2024.]({{"images/finishers_by_year.png" | relative_url }})
 
