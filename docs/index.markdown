@@ -8,7 +8,7 @@ layout: page
 
 <span style="color: dark-gray; font-size: 14px">**Nikita Bogdanov**</span>
 
-<span style="color: gray; font-size: 12px">_First published: 9/21/24_ &nbsp; &#124; &nbsp; _Last updated: 9/23/24_</span>
+<span style="color: gray; font-size: 12px">_First published: 9/21/24_ &nbsp; &#124; &nbsp; _Last updated: 9/24/24_</span>
 
 </div>
 
@@ -141,7 +141,7 @@ If there were more hours in a day, I'd want to play around with:
 * Comparing DNF distributions to finisher distributions by age and gender. E.g., are older runners more likely to DNF?
 * Identifying runners across multiple races and tracking their performance across the years. One simple but error-prone way of doing this: match on name, home state, and (expected) age.
 * Pulling data publicly available on Strava to look at heart rates during the race. E.g., if your average HR exceeds 150 in the first 12.6 miles, are you almost guaranteed to DNF?
-* Again using Strava, looking for relationships between training volume, intensity, elevation, etc. and race-day performance.
+* Again using Strava, looking for relationships between training volume, intensity, elevation, etc. and race-day performance. This is starting to border on real research, for which I'm not especially well qualified.
 
 <h3 id="other-projects" class="header-with-top">Other LT100 data projects
 <a href="#top" class="go-to-top">Go to top</a>
