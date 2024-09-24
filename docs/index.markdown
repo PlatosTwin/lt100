@@ -88,6 +88,10 @@ Outside of the observation that older runners tend to be slower, there's not muc
 
 ![Finishing time by age, colored by gender, from 1983 through 2024.]({{"images/finishing_time_age_gender.png" | relative_url }})
 
+Because many points overlap, it's also instructive to look at a heatmap version of this same data—though with the gender dimension now collapsed. Note that the color scale is logarithmic to account for the large differences in bin counts.
+
+![Finishing time by age, on a heatmap, from 1983 through 2024.]({{"images/finishing_time_age_heatmap.png" | relative_url }})
+
 <h4 id="data-splits">Splits and pace</h4>
 For 2019 through 2024, we can also look at performance within splits—i.e., in between aid stations.[^2] Here, we're looking at [box and whisker plots](https://datavizcatalogue.com/methods/box_plot.html) of pace data by split.[^3] So, e.g., in 2019 the median pace of finishers on the start-to-12.6-mile split was 10:37.
 
