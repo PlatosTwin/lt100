@@ -1,3 +1,5 @@
 lt100_analytics.ipynb
 .ipynb_checkpoints
-LT100.json
+*.json
+/backups
+
