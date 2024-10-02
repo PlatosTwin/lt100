@@ -27,7 +27,7 @@ html {
 .header-with-top {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Align items in the middle */
+    align-items: center;
 }
 
 .header-with-top a.go-to-top {
@@ -41,7 +41,6 @@ html {
     color: darkgray;
 }
 
-/* Adjust the line-height to align the large header text vertically */
 .header-with-top {
     line-height: 1.5;
     border-top: 1px solid gray;
@@ -50,8 +49,8 @@ html {
 }
 
 .custom-figure {
-    margin: 0 auto; /* Center the figure on the page */
-    padding-bottom: 20px; /* Padding between the figure and the next element */
+    margin: 0 auto; 
+    padding-bottom: 20px;
 }
 
 .custom-figure img {
@@ -106,3 +105,8 @@ html {
         min-width: 600px;  /* Ensure it doesn’t shrink too much */
     }
 }
+
+img {
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 1px; 
+  }
