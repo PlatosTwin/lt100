@@ -16,6 +16,7 @@ layout: page
 
 1. [Preamble](#preamble)
 2. [Course profile](#course)
+    * [Fractals](#course-fractals)
 3. [Data](#data)
     * [The basics](#data-basics)
     * [Cumulative percentages](#data-cumulative-percentages)
@@ -45,13 +46,43 @@ To be clear, this data falls pretty solidly into the category that I call "data 
 <a href="#top" class="go-to-top">Go to top</a>
 </h3>
 
-For those interested, this profile is derived from the course in the above-linked CalTopo map, which in turn is from the Leadville Race Series website (I believe).
+For those interested, this profile is derived from the course in the <a href="https://caltopo.com/m/DJ1HV" target="_blank">above-linked CalTopo map</a>.
 
 ![Course profile, with aid stations.]({{"images/course_profile.png" | relative_url }})
 
 For added context, it's interesting to compare the Leadville course to that of <a href="https://caltopo.com/m/SF14" target="_blank">Hardrock</a> (counterclockwise), <a href="https://caltopo.com/m/1BKH" target="_blank">Western States</a>, and <a href="https://caltopo.com/m/P0FG" target="_blank">UTMB</a>. Note that these profiles are not based on "official" course maps and so may have erroneous or outdated features—though probably are 98% accurate. Additionally, cumulative gain/loss is waypoint-to-waypoint, so almost certainly exaggerates gains and losses. E.g., Leadville shows on the order of 16k feet of gain, whereas the figure from CalTopo is just north of 15k; Hardrock shows on the order of 39k, whereas the figure from CalTopo is 35k; and ditto for Western States and UTMB. As you'll see, this is all consistent with the theme of this writeup: lots of approximations that, despite obvious shortcomings, are in my opinion more or less fine for most purposes.
 
 ![Course profiles for Leadville, Western States, UTMB, and Hardrock.]({{"images/comparison_profiles.png" | relative_url }})
+
+<h4 id="course-fractals">Fractals</h4>
+
+Just above I noted that my estimates of cumulative gains and losses are based on waypoint-to-point elevation differences, and that this may result in some exaggeration. While seemingly trivial, this observation hides a deep point which is worth exploring further—namely that it is not necessarily trivial to define a trail's "true" length. In this respect trails resemble coastlines and river networks, which are fascinating objects, mathematically.
+
+The intuition is straightforward. Imagine your favorite jagged coastline. Now, take a ruler that is 20 feet in length and use it to measure the coastline's length. Shrink the ruler down to 10 feet, then to five feet, then to one foot, then to one inch, etc. As your ruler shrinks, your estimate of the coastline's length increases. As it turns out, there is a neat relationship between the size of your ruler and the measured length of the coastline, which boils down to a single number called the fractal dimension. For objects such as coastlines, the fractal dimensions varies from 1.0 to 2.0; the closer the fractal dimension is to 2.0, the more complex the boundary. (For those interested in diving deeper into this subject, I recommend as a starting point Wikipedia's page on the so-called <a href="https://en.wikipedia.org/wiki/Coastline_paradox" target="_blank">Coastline Paradox</a>.) You can do something similar with river networks.
+
+You can see where we're going... What is a trail but a coastline or river rotated into the sky? If we can measure the fractal dimension of the coastline of England, certainly we can measure the fractal dimension of a trail's elevation profile? It is easy to analogize trails to coastlines and river networks—and below I do derive some measures of profile complexity—but there is good cause for skepticism. Fractals manifest where we have scale-invariant self-similarity, but unlike coastlines and river networks, elevation profiles are not self-similar. Unlike coastlines and river networks, which develop naturally, elevation profiles follow man-made trails that have been designed, among other things, to incorporate switchbacks and avoid cliffs. In other words, coastlines, river networks, heads of romanesco, tree branches—all of these look roughly the same whether you're zoomed in close or looking from afar. We can't say the same for an elevation profile. 
+
+There is one further complication, which is that course elevation profiles are generated from waypoints, but the waypoints in the files I have are not evenly spaced. For instance, the median distance between waypoints on the Leadville route is 135 feet, but some points are as far apart as 1,354 feet.
+
+![Histogram of distances between waypoints for the Leadville course.]({{"images/leadville_waypoint_hist.png" | relative_url }})
+
+Nonetheless, we can still visualize how a trail's length varies with the size of the ruler we use. The chart below shows trail length as a function of ruler length for ruler lengths between 10 feet and 2,640 feet (half a mile), measured every 5 feet, for the first half of the Leadville course. (Since Leadville is an out-and-back, it makes sense to look at half of the course only.) We can characterize this curve by its slope, which we measure in the linear regime from 35 feet to 2,640 feet; this value comes out to $$d=-0.000446$$.
+
+![Log-log plot for the Leadville course.]({{"images/leadville_log_log.png" | relative_url }})
+
+The same view for Western States yields a slope of $$d=-0.00262$$ in the linear regime starting at 50 feet, almost 6x the slope for Leadville.
+
+![Log-log plot for the Leadville course.]({{"images/western_states_log_log.png" | relative_url }})
+
+For Hardrock, the slope is $$d=-0.00233$$ in the linear regime starting at 35 feet, roughly comparable to that for Western States.
+
+![Log-log plot for the Leadville course.]({{"images/hardrock_log_log.png" | relative_url }})
+
+What does all of this mean for a runner's experience on trail? Take Western States as an example. The shortest measured distance is 94.67 miles, while the longest measured distance is 95.82 miles, a difference of 1.15 miles. At human scales of rulers, the difference in measured distances is surely much smaller—but if we raced humans against giants, there would be serious fairness concerns: depending on their stride length the giants could shave more than a mile off of the course!
+
+More realistically, slope tells us something about the average local hilliness of a course. The more locally hilly—the more small ups and downs—the more changing ruler sizes will make a difference and the greater the slope we'll see. In other words, it looks like both Western States and Hardrock are, comparatively, rather more hilly than Leadville. If anyone has run Leadville and one of Western States or Hardrock, I'd be very curious to hear whether this assessment holds up in real life.
+
+One final note on this subject: if we're after measures of hilliness, there are certainly better ones out there. Off the top of my head, we could look at average uphill/downhill grades, grade standard deviations, the number of times you switch from going up to going down, etc.
 
 <h3 id="data" class="header-with-top">Data
 <a href="#top" class="go-to-top">Go to top</a>
