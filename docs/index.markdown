@@ -8,7 +8,7 @@ layout: page
 
 <span style="color: dark-gray; font-size: 14px">**Nikita Bogdanov**</span>
 
-<span style="color: gray; font-size: 12px">_First published: 9/21/24_ &nbsp; &#124; &nbsp; _Last updated: 10/2/24_</span>
+<span style="color: gray; font-size: 12px">_First published: 9/21/24_ &nbsp; &#124; &nbsp; _Last updated: 10/3/24_</span>
 
 </div>
 
@@ -62,19 +62,19 @@ The intuition is straightforward. Imagine your favorite jagged coastline. Now, t
 
 You can see where we're going... What is a trail but a coastline or river rotated into the sky? If we can measure the fractal dimension of the coastline of England, certainly we can measure the fractal dimension of a trail's elevation profile? It is easy to analogize trails to coastlines and river networks—and below I do derive some measures of profile complexity—but there is good cause for skepticism. Fractals manifest where we have scale-invariant self-similarity, but unlike coastlines and river networks, elevation profiles are not self-similar. Unlike coastlines and river networks, which develop naturally, elevation profiles follow man-made trails that have been designed, among other things, to incorporate switchbacks and avoid cliffs. In other words, coastlines, river networks, heads of romanesco, tree branches—all of these look roughly the same whether you're zoomed in close or looking from afar. We can't say the same for an elevation profile. 
 
-There is one further complication, which is that course elevation profiles are generated from waypoints, but the waypoints in the files I have are not evenly spaced. For instance, the median distance between waypoints on the Leadville route is 135 feet, but some points are as far apart as 1,354 feet.
+There is one further complication, which is that course elevation profiles are generated from waypoints, but the waypoints in the files I use are not evenly spaced. For instance, the median <a href="https://en.wikipedia.org/wiki/Geodesic" target="_blank">geodesic distance</a> between waypoints on the Leadville route is 135 feet, but some points are as far apart as 1,354 feet. This means that the ruler is in practice a lower bound rather than a fixed length.[^1]
 
 ![Histogram of distances between waypoints for the Leadville course.]({{"images/leadville_waypoint_hist.png" | relative_url }})
 
-Nonetheless, we can still visualize how a trail's length varies with the size of the ruler we use. The chart below shows trail length as a function of ruler length for ruler lengths between 10 feet and 2,640 feet (half a mile), measured every 5 feet, for the first half of the Leadville course. (Since Leadville is an out-and-back, it makes sense to look at half of the course only.) We can characterize this curve by its slope, which we measure in the linear regime from 35 feet to 2,640 feet; this value comes out to $$d=-0.000446$$.
+Nonetheless, we can still visualize how a trail's length varies with the size of the ruler we use. The chart below shows trail length as a function of ruler length for ruler lengths between 10 feet and 2,640 feet (half a mile), measured every 5 feet, for the first half of the Leadville course. (Since Leadville is an out-and-back, it makes sense to look at half of the course only.) We can characterize this curve by its slope, which we measure in the linear regime from 35 feet to 2,640 feet; this value comes out to $$d=-0.000448$$.
 
 ![Log-log plot for the Leadville course.]({{"images/leadville_log_log.png" | relative_url }})
 
-The same view for Western States yields a slope of $$d=-0.00262$$ in the linear regime starting at 50 feet, almost 6x the slope for Leadville.
+The same view for Western States yields a slope of $$d=-0.00268$$ in the linear regime starting at 50 feet, almost 6x the slope for Leadville.
 
 ![Log-log plot for the Leadville course.]({{"images/western_states_log_log.png" | relative_url }})
 
-For Hardrock, the slope is $$d=-0.00233$$ in the linear regime starting at 35 feet, roughly comparable to that for Western States.
+For Hardrock, the slope is $$d=-0.00239$$ in the linear regime starting at 35 feet, roughly comparable to that for Western States.
 
 ![Log-log plot for the Leadville course.]({{"images/hardrock_log_log.png" | relative_url }})
 
@@ -92,7 +92,7 @@ Below, I've put together a collection of data cuts that I think are interesting 
 
 <h4 id="data-basics">The Basics</h4>
 
-The Leadville Trail 100 started in 1983 with 10 finishers; in 2024, it had just over 400.[^1] That's a 40x increase in finishers in roughly as many years—and assuming the DNF rate has remained approximately constant, which I think is likely, ditto for the number of entrants. But the race's growth trajectory has been far from steady, with just two periods of rapid growth: 1) 1987-1988, which brought participation to levels that lasted through 2008; and 2) 2009-2010, which brought participation to modern-day levels. What happened in 2009 and 2010? These years follow on the heels of the financial crisis, so it's possible that recently unemployed bankers took up ultra running; much more salient, however, is that on May 5th, 2009, Christopher McDougall published _Born to Run_.
+The Leadville Trail 100 started in 1983 with 10 finishers; in 2024, it had just over 400.[^2] That's a 40x increase in finishers in roughly as many years—and assuming the DNF rate has remained approximately constant, which I think is likely, ditto for the number of entrants. But the race's growth trajectory has been far from steady, with just two periods of rapid growth: 1) 1987-1988, which brought participation to levels that lasted through 2008; and 2) 2009-2010, which brought participation to modern-day levels. What happened in 2009 and 2010? These years follow on the heels of the financial crisis, so it's possible that recently unemployed bankers took up ultra running; much more salient, however, is that on May 5th, 2009, Christopher McDougall published _Born to Run_.
 
 ![Finishers by year, showing a 40x increase from 1983 to 2024.]({{"images/finishers_by_year.png" | relative_url }})
 
@@ -129,7 +129,7 @@ Because many points overlap, it's also instructive to look at a heatmap version 
 ![Finishing time by age, on a heatmap, from 1983 through 2024.]({{"images/finishing_time_age_heatmap.png" | relative_url }})
 
 <h4 id="data-splits">Splits and pace</h4>
-For 2019 through 2024, we can also look at performance within splits—i.e., in between aid stations.[^2] Here, we're looking at [box and whisker plots](https://datavizcatalogue.com/methods/box_plot.html) of pace data by split.[^3] So, e.g., in 2019 the median pace of finishers on the start-to-12.6-mile split was 10:37.
+For 2019 through 2024, we can also look at performance within splits—i.e., in between aid stations.[^3] Here, we're looking at [box and whisker plots](https://datavizcatalogue.com/methods/box_plot.html) of pace data by split.[^4] So, e.g., in 2019 the median pace of finishers on the start-to-12.6-mile split was 10:37.
 
 A few features stand out to me.
 * First, there's not much year-to-year variation in either the overall shape or the spreads of individual splits.
@@ -139,7 +139,7 @@ A few features stand out to me.
 
 {% include graphs/split_paces_2019_2024.html %}
 
-The companion view to split paces is a view of how the cumulative pace evolves over time. What's notable here is that as the race progresses the bulk of the pack slows down markedly if not substantially more than do the fastest runners.[^4] Take 2019 as an example. The median pace in the first 12.6 miles was 10:37; across 87.8 miles, it had slowed down by 6:19 (59.5%) to 16:56. By contrast, the lower-fence pace in the first 12.6 miles was 7:39; across 87.8 miles, it had slowed down only 3:45 (49%), to 11:24.
+The companion view to split paces is a view of how the cumulative pace evolves over time. What's notable here is that as the race progresses the bulk of the pack slows down markedly if not substantially more than do the fastest runners.[^5] Take 2019 as an example. The median pace in the first 12.6 miles was 10:37; across 87.8 miles, it had slowed down by 6:19 (59.5%) to 16:56. By contrast, the lower-fence pace in the first 12.6 miles was 7:39; across 87.8 miles, it had slowed down only 3:45 (49%), to 11:24.
 
 {% include graphs/cumulating_paces_2019_2024.html %}
 
@@ -149,7 +149,7 @@ The bottom subplot shows the number of runners who DNF'd between aid station A a
 
 {% include graphs/dnfs_finishers_drop_by_split.html %}
 
-Finally, we can take a closer look at what happens on the trail by examining how often runners change ranks, i.e., pass each other. The table below examines finisher-only split-to-split rank differences from 2019 through 2024. As column four indicates, north of 90% of runners are passing someone or being passed _each and every split_. In general, the movement isn't large, with runner ranks changing on average between 9 and 23 places. Perhaps somewhat surprisingly, there is substantial movement in ranks all the way up through the final split.[^5] (Note that on small screens the table scrolls.)
+Finally, we can take a closer look at what happens on the trail by examining how often runners change ranks, i.e., pass each other. The table below examines finisher-only split-to-split rank differences from 2019 through 2024. As column four indicates, north of 90% of runners are passing someone or being passed _each and every split_. In general, the movement isn't large, with runner ranks changing on average between 9 and 23 places. Perhaps somewhat surprisingly, there is substantial movement in ranks all the way up through the final split.[^6] (Note that on small screens the table scrolls.)
 
 {% include rank_table.html %}
 
@@ -190,8 +190,9 @@ A quick Google search shows a few similar projects, linked below. If you know of
 <a href="#top" class="go-to-top">Go to top</a>
 </h3>
 
-[^1]: We're limited to looking at _finishers_ rather than _entrants_ because Athlinks does not have split data prior to 2017—since outside of 1999 to 2021, Athlinks was not the time keeper for the race. This means that all we get for 1983 to 2016 is a list of finishers.
-[^2]: Technically splits data goes back to 2017, but 2017 and 2018 data is messy, so I've chosen to exclude it from these views.
-[^3]: The lower and upper fences are positioned at +/- 1.5x the interquartile range (75th percentile - 25 percentile).
-[^4]: This assumes—I think reasonably—that whatever passing goes on does not materially affect where a runner is relative to the rest of the pack. E.g., this assumes that the runners we identified as fast and median at 12.8 miles are roughly still near the lower fence and the median at mile 87.8.
-[^5]: There is undoubtedly some noise in these figures—e.g., I find it unlikely that someone jumped 351 places—but they should be correct at least directionally.
+[^1]: Note that _geodesic distance_ is not the same as _Euclidean distance_, which is what we're after here. Indeed, the length of the ruler—i.e., the Euclidean distance—between any two points $$p_1(x, y)$$ and $$p_2(x, y)$$, where $$x$$ is the <a href="https://en.wikipedia.org/wiki/Geodesic" target="_blank">geodesic distance</a> from the starting point and $$y$$ is the elevation, is $$d = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}$$.
+[^2]: We're limited to looking at _finishers_ rather than _entrants_ because Athlinks does not have split data prior to 2017—since outside of 1999 to 2021, Athlinks was not the time keeper for the race. This means that all we get for 1983 to 2016 is a list of finishers.
+[^3]: Technically splits data goes back to 2017, but 2017 and 2018 data is messy, so I've chosen to exclude it from these views.
+[^4]: The lower and upper fences are positioned at +/- 1.5x the interquartile range (75th percentile - 25 percentile).
+[^5]: This assumes—I think reasonably—that whatever passing goes on does not materially affect where a runner is relative to the rest of the pack. E.g., this assumes that the runners we identified as fast and median at 12.8 miles are roughly still near the lower fence and the median at mile 87.8.
+[^6]: There is undoubtedly some noise in these figures—e.g., I find it unlikely that someone jumped 351 places—but they should be correct at least directionally.
