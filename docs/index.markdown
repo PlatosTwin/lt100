@@ -183,6 +183,7 @@ If there were more hours in a day, I'd want to play around with:
 </h3>
 
 A quick Google search shows a few similar projects, linked below. If you know of any others, feel free to reach out; my contact information is in the footer.
+* <a href="https://www.coros.com/stories/coros-coaches/c/leadville-100-what-it-takes-to-finish" target="_blank">LEADVILLE 100: What It Takes To Finish</a> (from COROS)
 * <a href="https://lt100analysis.com/" target="_blank">https://lt100analysis.com/</a>
 * <a href="https://www.mitchleblanc.com/2012/09/leadville-100-2012-race-report-part-3-data-analysis/" target="_blank">https://www.mitchleblanc.com/</a>
 
