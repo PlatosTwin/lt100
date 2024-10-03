@@ -70,7 +70,7 @@ Nonetheless, we can still visualize how a trail's length varies with the size of
 
 ![Log-log plot for the Leadville course.]({{"images/leadville_log_log.png" | relative_url }})
 
-The same view for Western States yields a slope of $$d=-0.00268$$ in the linear regime starting at 50 feet, almost 6x the slope for Leadville.
+The same view for Western States yields two distinct regimes: from 50 feet to 595 feet, the slope is $$d=-0.00384$$; beginning at 600 feet and extending through to 2,640 feet, the slope shallows out to $$d=-0.00171$$. Roughly, this means that the profile behaves more like a line—and thus less like a fractal—at ruler sizes of 600 feet and greater than it does at ruler sizes of less than 600 feet.
 
 ![Log-log plot for the Leadville course.]({{"images/western_states_log_log.png" | relative_url }})
 
