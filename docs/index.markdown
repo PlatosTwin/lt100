@@ -28,8 +28,7 @@ layout: page
 6. [Other LT100 data projects](#other-projects)
 7. [Footnotes](#footnotes)
 
-<em>Note: If you'd like to reference the course as you read along, you can find an <a href="https://caltopo.com/m/DJ1HV" target="_blank">interactive version</a> on CalTopo, or a basic course profile [down below](#course).</em>
-
+<em>\** Since first posting this, I've shared the link on <a href="https://www.reddit.com/r/Ultramarathon/comments/1fwhf40/a_modest_dive_into_41_years_of_data_from_the/" target="_blank">Reddit</a> and have been answering questions there. I expect to keep most answers just on Reddit rather than incorporating them here, so I encourage readers to browse the thread for additional context. \**</em>
 
 <h3 id="preamble" class="header-seps">Preamble</h3>
 I spent the summer of 2015—and 2016, 2017, 2018, and 2019—in Leadville, CO, working as an instructor at the Colorado Outward Bound School (COBS). It was then that I first learned of the Leadville Trail 100. By the time I started at COBS, the organization had been running the Outward Bound aid station for a number of years and drew heavily from its ranks to staff the aid station and stock a pool of volunteer pacers. Having spent all summer working in the mountains, I figured I was up to the challenge of pacing, and that first year I accompanied a runner from Outward Bound to Mayqueen. In both 2016 and 2017, I was lucky enough to pace from Outward Bound to the finish. (The photo below is from 2016.)
@@ -46,7 +45,7 @@ To be clear, this data falls pretty solidly into the category that I call "data 
 <a href="#top" class="go-to-top">Go to top</a>
 </h3>
 
-For those interested, this profile is derived from the course in the <a href="https://caltopo.com/m/DJ1HV" target="_blank">above-linked CalTopo map</a>.
+For those interested, this profile is derived from the course in <a href="https://caltopo.com/m/DJ1HV" target="_blank">this CalTopo map</a>.
 
 ![Course profile, with aid stations.]({{"images/course_profile.png" | relative_url }})
 
