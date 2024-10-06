@@ -121,7 +121,7 @@ What's especially stunning in the chart below is the durability of the inflectio
 
 <h4 id="data-age-gender-time">Age, gender, and time</h4>
 
-Outside of the observation that older runners tend to be slower, there's not much of interest when we break down finishing times by age and gender. (I haven't yet verified this, but I suspect the three outlier blue dots at ages 58, 61, and 66 are due to dirty data rather than abnormally fast older runners.) But, this graph does reinforce the oddity I pointed out just above, about the 25-hour mark being a sort of inflection point. Here, the inflection manifests as a decrease in "dot density" in the band between 25:00 and 26:00.
+Outside of the observation that older runners tend to be slower, there's not much of interest when we break down finishing times by age and gender. But, this graph does reinforce the oddity I pointed out just above, about the 25-hour mark being a sort of inflection point. Here, the inflection manifests as a decrease in "dot density" in the band between 25:00 and 26:00.
 
 ![Finishing time by age, colored by gender, from 1983 through 2024.]({{"images/finishing_time_age_gender.png" | relative_url }})
 
