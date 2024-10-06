@@ -8,7 +8,7 @@ layout: page
 
 <span style="color: dark-gray; font-size: 14px">**Nikita Bogdanov**</span>
 
-<span style="color: gray; font-size: 12px">_First published: 9/21/24_ &nbsp; &#124; &nbsp; _Last updated: 10/5/24_</span>
+<span style="color: gray; font-size: 12px">_First published: 9/21/24_ &nbsp; &#124; &nbsp; _Last updated: 10/6/24_</span>
 
 </div>
 
