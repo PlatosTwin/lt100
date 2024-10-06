@@ -37,7 +37,7 @@ I spent the summer of 2015—and 2016, 2017, 2018, and 2019—in Leadville, CO, 
 
 While my course schedule didn't align with the race in 2018 and 2019, somewhere along the way I decided that I would one day run the LT100 myself. Until recently, this was a goal without much conviction behind it: in 2018 we moved from Colorado to New York City, and with the change of scenery it was challenging to hold on to the self I had grown into while living and working in the mountains.
 
-...until David Roche [set the course record at this year's LT100](https://stories.strava.com/articles/david-roche-the-journey-to-the-leadville-100-course-record). I'm still many years away from running in the LT100 myself, but with David's record-setting debut—and a family commitment to moving back to the Mountain West in the not-too-distant future—I wanted to reconnect with my own experiences with the race and to start taking seriously that one day it will hopefully be me coming through the Outward Bound aid station. And so I did what I'm reasonably good at doing: I pulled some historical data and played around with making some graphs.
+...until David Roche <a href="https://stories.strava.com/articles/david-roche-the-journey-to-the-leadville-100-course-record" target="_blank">set the course record at this year's LT100</a>. I'm still many years away from running in the LT100 myself, but with David's record-setting debut—and a family commitment to moving back to the Mountain West in the not-too-distant future—I wanted to reconnect with my own experiences with the race and to start taking seriously that one day it will hopefully be me coming through the Outward Bound aid station. And so I did what I'm reasonably good at doing: I pulled some historical data and played around with making some graphs.
 
 To be clear, this data falls pretty solidly into the category that I call "data porn"—data that's interesting to look at but that is ultimately of little or no practical utility and from which you can't draw (m)any statistically robust conclusions. Indeed, there are plenty of websites, blogs, and Reddit threads devoted to the topic of strategizing for ultras generally and the LT100 specifically, and those looking for practical advice should most certainly turn to sources such as those. The purely curious, however, can go some way toward scratching their data itch here.
 
@@ -95,7 +95,7 @@ The Leadville Trail 100 started in 1983 with 10 finishers; in 2024, it had just 
 
 ![Finishers by year, showing a 40x increase from 1983 to 2024.]({{"images/finishers_by_year.png" | relative_url }})
 
-On their [SWAP Podcast](https://podcasts.apple.com/us/podcast/some-work-all-play/id1521532868), David and Megan Roche often say that we're in the middle of a performance revolution in endurance sports, powered by high-carb fueling, with top times getting faster across a variety of events. Without saying anything about causation—because there are too many confounding variables to list—it's anecdotally interesting that we see this phenomenon in the LT100, but only among top finishers. For most everyone else, even the top 25th percentile, finishing times have remained roughly flat across the years.
+On their <a href="https://podcasts.apple.com/us/podcast/some-work-all-play/id1521532868" target="_blank">SWAP Podcast</a>, David and Megan Roche often say that we're in the middle of a performance revolution in endurance sports, powered by high-carb fueling, with top times getting faster across a variety of events. Without saying anything about causation—because there are too many confounding variables to list—it's anecdotally interesting that we see this phenomenon in the LT100, but only among top finishers. For most everyone else, even the top 25th percentile, finishing times have remained roughly flat across the years.
 
 That said, my guess is that Leadville attracts a lot of first-time ultra runners, and newer ultra runners may not be benefitting as much from the fueling revolution as experienced ones. As I suggest [below](#future-work), what I would really like to do is control more for experience. E.g., maybe you look only at runners who have completed Leadville before—or at those with at least one other mountain ultra under their belt. Or, maybe you look to a different race entirely. David Roche has suggested that the Leadville course record was commonly thought to be "soft," so to control more for experience you could look to a course where the record is thought to be "hard."
 
@@ -130,7 +130,7 @@ Because many points overlap, it's also instructive to look at a heatmap version 
 ![Finishing time by age, on a heatmap, from 1983 through 2024.]({{"images/finishing_time_age_heatmap.png" | relative_url }})
 
 <h4 id="data-splits">Splits and pace</h4>
-For 2019 through 2024, we can also look at performance within splits—i.e., in between aid stations.[^4] Here, we're looking at [box and whisker plots](https://datavizcatalogue.com/methods/box_plot.html) of pace data by split.[^5] So, e.g., in 2019 the median pace of finishers on the start-to-12.6-mile split was 10:37.
+For 2019 through 2024, we can also look at performance within splits—i.e., in between aid stations.[^4] Here, we're looking at <a href="https://datavizcatalogue.com/methods/box_plot.html" target="_blank">box and whisker plots</a> of pace data by split.[^5] So, e.g., in 2019 the median pace of finishers on the start-to-12.6-mile split was 10:37.
 
 A few features stand out to me.
 * First, there's not much year-to-year variation in either the overall shape or the spreads of individual splits.
@@ -144,7 +144,7 @@ The companion view to split paces is a view of how the cumulative pace evolves o
 
 {% include graphs/cumulating_paces_2019_2024.html %}
 
-We can also look at splits from the angle of DNFs. Below, we chart out the overall DNF rate (top subplot) and the split-to-split DNF rate (bottom subplot) as a function of aid station. The observant reader will notice that the DNF rate does not [decrease monotonically](https://mathworld.wolfram.com/MonotoneDecreasing.html), which is a result of dirty data, discussed in the next section.
+We can also look at splits from the angle of DNFs. Below, we chart out the overall DNF rate (top subplot) and the split-to-split DNF rate (bottom subplot) as a function of aid station. The observant reader will notice that the DNF rate does not <a href="https://mathworld.wolfram.com/MonotoneDecreasing.html" target="_blank">decrease monotonically</a>, which is a result of dirty data, discussed in the next section.
 
 The bottom subplot shows the number of runners who DNF'd between aid station A and B as a percentage of the number of runners still active at aid station A. E.g., in 2019 nearly 20% of the runners who were still active at 56.5 miles had DNF'd by the time they came into mile 62.5. While I would have expected this chart to have less year-to-year variation, it's at least not surprising to see that the highest split-to-split DNF rates occur at miles 43.5, 50, 56.5, and 62.5—i.e., in the stretch of trail seven miles before and 12 miles after the half-way turnaround and Hope Pass.
 
@@ -160,7 +160,7 @@ Finally, we can take a closer look at what happens on the trail by examining how
 <a href="#top" class="go-to-top">Go to top</a>
 </h3>
 
-All data is derived from [Athlinks](https://www.athlinks.com/event/33913). Surprisingly, the source data is quite dirty. A non-exhaustive list of issues includes:
+All data is derived from <a href="https://www.athlinks.com/event/33913" target="_blank">Athlinks</a>. Surprisingly, the source data is quite dirty. A non-exhaustive list of issues includes:
 * Some runners have age = 0
 * Some finishing times are under 13 hours but attached to runners who are marked as having finished rather than DNF'd
 * Within a single year and filtering to just finishers, there are aid stations later on in the race that have more runners than some aid stations earlier on in the race
