@@ -28,6 +28,8 @@ layout: page
 6. [Other LT100 data projects](#other-projects)
 7. [Footnotes](#footnotes)
 
+<em>\** Plots updated on 4/11/26 to add data from 2025 + a few additional graphs. Body text remains unchanged from original publication, so may have some stale bits. \**</em>
+<br>
 <em>\** Since first posting this, I've shared the link on <a href="https://www.reddit.com/r/Ultramarathon/comments/1fwhf40/a_modest_dive_into_41_years_of_data_from_the/" target="_blank">Reddit</a> and have been answering questions there. I expect to keep most answers just on Reddit rather than incorporating them here, so I encourage readers to browse the thread for additional context. \**</em>
 
 <h3 id="preamble" class="header-seps">Preamble</h3>
@@ -109,32 +111,32 @@ That said, my guess is that Leadville attracts a lot of first-time ultra runners
 
 The vast majority of DNFs take place prior to the 18-hour mark, meaning that by the time the first runner crosses the finish line, the roster of finishers-to-be is more or less set. Roughly, and all else being equal, if you make it past hour 18, odds are that you're not going to DNF.
 
-![Cumulative percentage of runners—finishers and DNFs—by time on course, 2024.]({{"images/cumulative_all_runners_2024.png" | relative_url }})
+![Cumulative percentage of runners—finishers and DNFs—by time on course, 2024.]({{"images/cumulative_all_runners_latest.png" | relative_url }})
 
 Zooming into just those who finished the race, we can see that the median finishing time in 2024 was just north of 28:00. By the 24-hour mark, only about 15% of finishers had come through.
 
-![Cumulative percentage of runners—finishers only—by time on course, 2024.]({{"images/cumulative_finishers_only_2024.png" | relative_url }})
+![Cumulative percentage of runners—finishers only—by time on course, 2024.]({{"images/cumulative_finishers_only_latest.png" | relative_url }})
 
 The percentages vary slightly from year to year, but as a whole the shapes of both curves—all runners and finishers only—are surprisingly durable.
 
-![Cumulative percentage of runners—finishers and DNFs—by time on course, 2017-2024.]({{"images/cumulative_all_runners_2017_2024.png" | relative_url }})
+![Cumulative percentage of runners—finishers and DNFs—by time on course, 2017-2024.]({{"images/cumulative_all_runners_2017_latest.png" | relative_url }})
 
 What's especially stunning in the chart below is the durability of the inflection point around the 25-hour mark. The rate at which runners cross the finish line in the few hours before the 25-hour mark is qualitatively quite different than the rate at which runners cross the finish line in the few hours after the 25-hour mark. For one reason or another, if you're not finishing ahead of the 25-hour mark, you're finishing (at least) a few hours after it.
 
-![Cumulative percentage of runners—finishers only—by time on course, 2017-2024.]({{"images/cumulative_finishers_only_2017_2024.png" | relative_url }})
+![Cumulative percentage of runners—finishers only—by time on course, 2017-2024.]({{"images/cumulative_finishers_only_2017_latest.png" | relative_url }})
 
 <h4 id="data-age-gender-time">Age, gender, and time</h4>
 
 Outside of the observation that older runners tend to be slower, there's not much of interest when we break down finishing times by age and gender. But, this graph does reinforce the oddity I pointed out just above, about the 25-hour mark being a sort of inflection point. Here, the inflection manifests as a decrease in "dot density" in the band between 25:00 and 26:00.
 
-![Finishing time by age, colored by gender, from 1983 through 2024.]({{"images/finishing_time_age_gender.png" | relative_url }})
+![Finishing time by age, colored by gender, from 1983 through 2025.]({{"images/finishing_time_age_gender.png" | relative_url }})
 
 Because many points overlap, it's also instructive to look at a heatmap version of this same data—though with the gender dimension now collapsed. Note that the color scale is logarithmic to account for the large differences in bin counts.
 
-![Finishing time by age, on a heatmap, from 1983 through 2024.]({{"images/finishing_time_age_heatmap.png" | relative_url }})
+![Finishing time by age, on a heatmap, from 1983 through 2025.]({{"images/finishing_time_age_heatmap.png" | relative_url }})
 
 <h4 id="data-splits">Splits and pace</h4>
-For 2019 through 2024, we can also look at performance within splits—i.e., in between aid stations.[^4] Here, we're looking at <a href="https://datavizcatalogue.com/methods/box_plot.html" target="_blank">box and whisker plots</a> of pace data by split.[^5] So, e.g., in 2019 the median pace of finishers on the start-to-12.6-mile split was 10:37.
+For 2019 through 2025, we can also look at performance within splits—i.e., in between aid stations.[^4] Here, we're looking at <a href="https://datavizcatalogue.com/methods/box_plot.html" target="_blank">box and whisker plots</a> of pace data by split.[^5] So, e.g., in 2019 the median pace of finishers on the start-to-12.6-mile split was 10:37.
 
 A few features stand out to me.
 * First, there's not much year-to-year variation in either the overall shape or the spreads of individual splits.
@@ -142,11 +144,19 @@ A few features stand out to me.
 * Third, uphills bring out performance differences. The interquartile range (IQR) of the four splits leading up to Hope Pass hovers roughly between 2:00 and 2:30. I've heard Leadville described as a road race for the first 40 miles, and this data goes some way towards supporting that characterization. Once runners begin to ascend, however, the IQR widens to nearly 5:00 and we see the spread increase as well between the Q3 and the upper fence and Q1 and the lower fence.
 * Fourth, we can see Hope Pass reflected in every split that follows. The IQR of the last four splits, which runners hit once they descend Hope Pass, hovers around 3:00, a 25% to 50% increase compared to the IQR of the first four splits.
 
-{% include graphs/split_paces_2019_2024.html %}
+{% include graphs/split_paces_2019_latest.html %}
+
+On a more practical note—and as requested by a runner—we can also look at splits by target hour.
+
+{% include graphs/splits_by_target_time.html %}
 
 The companion view to split paces is a view of how the cumulative pace evolves over time. What's notable here is that as the race progresses the bulk of the pack slows down markedly if not substantially more than do the fastest runners.[^6] Take 2019 as an example. The median pace in the first 12.6 miles was 10:37; across 87.8 miles, it had slowed down by 6:19 (59.5%) to 16:56. By contrast, the lower-fence pace in the first 12.6 miles was 7:39; across 87.8 miles, it had slowed down only 3:45 (49%), to 11:24.
 
-{% include graphs/cumulating_paces_2019_2024.html %}
+{% include graphs/cumulating_paces_2019_latest.html %}
+
+And as above, here's a more functional view by target time.
+
+{% include graphs/cumulating_paces_by_target_time.html %}
 
 We can also look at splits from the angle of DNFs. Below, we chart out the overall DNF rate (top subplot) and the split-to-split DNF rate (bottom subplot) as a function of aid station. The observant reader will notice that the DNF rate does not <a href="https://mathworld.wolfram.com/MonotoneDecreasing.html" target="_blank">decrease monotonically</a>, which is a result of dirty data, discussed in the next section.
 
@@ -154,7 +164,7 @@ The bottom subplot shows the number of runners who DNF'd between aid station A a
 
 {% include graphs/dnfs_finishers_drop_by_split.html %}
 
-Finally, we can take a closer look at what happens on the trail by examining how often runners change ranks, i.e., pass each other. The table below examines finisher-only split-to-split rank differences from 2019 through 2024. As column four indicates, north of 90% of runners are passing someone or being passed _each and every split_. In general, the movement isn't large, with runner ranks changing on average between nine and 23 places. Perhaps somewhat surprisingly, there is substantial movement in ranks all the way up through the final split.[^7] (Note that on small screens the table scrolls.)
+Finally, we can take a closer look at what happens on the trail by examining how often runners change ranks, i.e., pass each other. The table below examines finisher-only split-to-split rank differences from 2019 through 2025. As column four indicates, north of 90% of runners are passing someone or being passed _each and every split_. In general, the movement isn't large, with runner ranks changing on average between nine and 23 places. Perhaps somewhat surprisingly, there is substantial movement in ranks all the way up through the final split.[^7] (Note that on small screens the table scrolls.)
 
 {% include rank_table.html %}
 
@@ -200,7 +210,7 @@ A quick Google search shows a few similar projects, linked below. If you know of
 [^1]: But, it turns out that we _can_ say the same thing for ridgelines! See <a href="https://academic.oup.com/comnet/article-abstract/8/1/cnz017/5485907" target="_blank">here</a> for an interesting 2019 paper on this. Lay reporting on this paper is available <a href="https://phys.org/news/2019-06-universal-beauty-mountains-graphs.html" target="_blank">here</a>.
 [^2]: I've resampled the courses so that waypoints are roughly 10 feet apart as measured along a <a href="https://en.wikipedia.org/wiki/Geodesic" target="_blank">geodesic</a>. (I used different course profiles to create the cumulative loss/gain chart, as waypoint-to-waypoint cumulative loss/gain on waypoints spaced 10 feet would overexeggerate substantially.) Note, however, that _geodesic distance_ is not the same as _Euclidean distance_, which is what we're after here. Indeed, the length of the ruler—i.e., the Euclidean distance—between any two points $$p_1(x, y)$$ and $$p_2(x, y)$$, where $$x$$ is the geodesic from the starting point and $$y$$ is the elevation, is $$d = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}$$. A shorter distance between waypoints would in principle lead to a more accurate measurement of the fractal dimension, but at some point uncertainty in elevation data will stall out any improvement that would otherwise be gained from finer and finer waypoint placements.
 [^3]: We're limited to looking at _finishers_ rather than _entrants_ because Athlinks does not have split data prior to 2017—since outside of 2017 to 2024 and 1999 to 2001, Athlinks was not the time keeper for the race. (And for 1999, 2000, and 2001, Athlinks does not have split data.) This means that all we get for 1983 to 2016 is a list of finishers.
-[^4]: Technically splits data goes back to 2017, but 2017 and 2018 data is messy, so I've chosen to exclude it from these views.
+[^4]: Technically splits data goes back to 2017, but 2017 and 2018 data is messy, so I've chosen to exclude it from these views. It's also worth noting that I've normalized aid station distances based on the predominant distances in the sample—e.g., in 2024 Half Pipe In is reported as being located at 70.3, whereas in all prior years it is reported at 71.1, so 71.1 is the value that I show on the x axis. All split times, however, use the reported distance for the given year, without normalization.
 [^5]: The lower and upper fences are positioned at &#177; 1.5x the interquartile range (75th percentile - 25 percentile).
 [^6]: This assumes—I think reasonably—that whatever passing goes on does not materially affect where a runner is relative to the rest of the pack. E.g., this assumes that the runners we identified as fast and median at 12.8 miles are roughly still near the lower fence and the median at mile 87.8.
 [^7]: There is undoubtedly some noise in these figures—e.g., I find it unlikely that someone jumped 351 places—but they should be correct at least directionally.
