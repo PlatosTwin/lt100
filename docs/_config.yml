@@ -18,19 +18,27 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: LT100 Analytics
+title: Leadville Trail 100 Analytics
 email: nmbogdan@alumni.stanford.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  High-level analytics for the LT100 race.
+  Data analysis of the Leadville Trail 100, including finish times, split paces,
+  cumulative pacing, DNF patterns, age and gender trends, and target-time views.
 baseurl: "/lt100" # the subpath of your site, e.g. /blog
 domain: "PlatosTwin.github.io"
 url: "https://PlatosTwin.github.io"
 github_username: PlatosTwin
+author:
+  name: Nikita Bogdanov
+  email: nmbogdan@alumni.stanford.edu
+logo: /images/lt100_2016.jpg
+twitter:
+  card: summary_large_image
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 kramdown:
   parse_block_html: true

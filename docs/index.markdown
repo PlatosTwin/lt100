@@ -1,5 +1,8 @@
 ---
 layout: page
+title: Leadville Trail 100 Analytics, Splits, and Finish-Time Trends
+description: Analysis of Leadville Trail 100 finish times, split paces, cumulative pacing, DNF rates, age and gender trends, and target-time views.
+image: /images/lt100_2016.jpg
 ---
 
 <h2 style="text-align: center;">Some data from the LT100</h2>
