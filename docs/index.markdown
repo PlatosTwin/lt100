@@ -33,6 +33,7 @@ image: /images/lt100_2016.jpg
 
 <em>\** Plots updated on 4/11/26 to add data from 2025 + a few additional graphs. Body text remains unchanged from original publication, so may have some stale bits. \**</em>
 <br>
+<br>
 <em>\** Since first posting this, I've shared the link on <a href="https://www.reddit.com/r/Ultramarathon/comments/1fwhf40/a_modest_dive_into_41_years_of_data_from_the/" target="_blank">Reddit</a> and have been answering questions there. I expect to keep most answers just on Reddit rather than incorporating them here, so I encourage readers to browse the thread for additional context. \**</em>
 
 <h3 id="preamble" class="header-seps">Preamble</h3>
@@ -101,6 +102,8 @@ The Leadville Trail 100 started in 1983 with 10 finishers; in 2024, it had just 
 ![Finishers by year, showing a 40x increase from 1983 to 2024.]({{"images/finishers_by_year.png" | relative_url }})
 
 This is backed up to a degree by Google Search Trends data, according to which the monthly all-time high for Google searches for "leadville trail 100" was in August 2009. (Note that it was _not_ in May of that year, the month _Born to Run_ was published.) Google Search Trends also shows, not surprisingly, that the race's search relevance peaks on a predictable yearly cycle, with August of each year witnessing a sharp spike and the rest of the year showing little if any engagement. It's interesting to see that the race's search popularity in the oughts was higher than it is currently; perhaps we're seeing here the influence of social media, or else a change in how people use the google search bar, or maybe something else entirely. (The graph for "leadville" is fairly similar, with August of 2009 being the all-time high month and popularity following a predictable yearly pattern.)
+
+_If the embeded Google Trends graph is not displaying properly, you might need to temporarily enable third-party cookies._
 
 {% include google_trends.html %}
 
